@@ -1,0 +1,5 @@
+- hosts: minio-poc
+  become: true
+  gather_facts: yes
+  roles:
+    - ubuntu2004_cis
